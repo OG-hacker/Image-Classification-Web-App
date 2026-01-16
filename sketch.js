@@ -67,10 +67,10 @@ function gotResult(results) {
     if (label === "Stop Sign") {
     message = "Current Speed: " + currentSpeed + " MPH\nSTOP the vehicle";
     tintcolor = 1;
-  } else if (label === "Speed Limit 30") {
+  } else if (label === "Speed Limit 60") {
     message = "Current Speed: " + currentSpeed + " MPH\nIncrease your speed";
     tintcolor = 2;
-  } else if (label === "Speed Limit 60") {
+  } else if (label === "Speed Limit 30") {
     message = "Current Speed: " + currentSpeed + " MPH\nDecrease your speed";
     tintcolor = 3;
   } else {
